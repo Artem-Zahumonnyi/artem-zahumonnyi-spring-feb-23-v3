@@ -5,6 +5,7 @@ WORKDIR /usr/src/app
 COPY . /usr/src/app
 RUN mvn package
 
+
 FROM openjdk:8-jre-alpine
 
 
